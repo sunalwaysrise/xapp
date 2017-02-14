@@ -1,0 +1,13 @@
+<view class="header1 header_about">关于我们</view>
+<view class="aboutBanner">
+    <image class="image" src="../../image/aboutBanner.jpg"></image>
+</view>
+<view class="about">
+    <view class="aboutBg"></view>
+    <view class="h2">百年历史</view>
+    <view class="p">雀巢的起源始于1866年的瑞士，至今已有140余年历史。雀巢健康科学公司是雀巢公司旗下的医学营养品公司，总部位于瑞士沃韦。</view>
+    <view class="p">雀巢健康科学在研究食品、营养和生命科学领域处于世界领先地位，为各种病理生理状态下需要肠内营养支持的人群提供先进和个性化的解决方案。</view>
+    <view class="h2">科学研发  专业领先</view>
+    <view class="p">雀巢致力于开发安全优质的营养产品，在全球拥有26个研发中心，3700多名科学家，262个科学出版物，与103个世界各地大学研究机构设立合作项目，以及百亿人民币的科研投入。</view>
+    <view class="p">雀巢健康科学是全球领先的医学营养品公司，包括肠内营养制剂、口服营养补充以及营养医疗器械，主要研究方向专注于儿科疾病、老年疾病、重症/手术、脑健康、代谢性疾病及消化疾病六大治疗领域，并提供包括医疗器械和诊断试剂等从筛查到干预的完整解决方案。</view>
+</view>

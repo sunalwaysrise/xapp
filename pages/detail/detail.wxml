@@ -1,0 +1,55 @@
+<include src="../common/dialog.wxml" />
+
+<swiper class="banner" autoplay="true" interval="5000" duration="300" circular="true">
+    <block wx:for="{{banner}}">
+        <swiper-item>
+            <image src="{{IMGURL}}m{{item}}" class="slide-image" mode="aspectFill"/>
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class="title">
+    <view class="name">{{data.title}}</view>
+    <view class="prize">
+        <view class="oldprize">￥{{data.price}}</view>
+        <text class="del" wx:if="{{data.oldprice>0}}">￥{{data.oldprice}}</text>
+    </view>
+</view>
+
+
+<view class="disc">{{data.description}}</view>
+
+<view class="pl">
+    <view class="h2">商品评论</view>
+    <view class="comments" wx:if="{{hascomment}}">
+        <view class="comment" wx:for="{{comments}}">
+            <view class="t">
+                <image class="image" src="{{item.headimg}}"></image>
+                <view class="nickname">{{item.nickname}}</view>
+            </view>
+            <view class="c">{{item.content}}</view>
+            <view class="e">{{item.time}}</view>
+        </view>
+        <view class="comment_btns">
+            <view class="a" bindtap="prevPage">上一页</view>
+            <view class="b"><text class="cur">{{p+1}}</text>/{{totalpage}}</view>
+            <view class="a" bindtap="nextPage">下一页</view>
+        </view>
+    </view>
+
+    <view class="btn5" wx:if="{{!openComment}}" bindtap="openComment">我要评论</view>
+
+    <form bindsubmit="comment"  wx:if="{{openComment}}">
+        <view class="textarea">
+            <textarea name="textarea" />
+        </view>
+        <view class="pl_btn">
+            <button form-type="submit" class="btn6">提交评论</button>
+            <view class="btn7" bindtap="closeComment">取消</view>
+        </view>
+    </form>
+</view>
+
+<view class="buyBtn">立即购买</view>
+
+

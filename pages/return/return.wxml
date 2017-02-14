@@ -1,0 +1,16 @@
+<view class="header1 header_service">退换货流程</view>
+<view class="bannerTop">
+    <image class="image" src="../../image/m14472588281508468190.jpg" ></image>
+</view>
+
+<view class="about">
+    <view class="aboutBg"></view>
+    <view class="aboutBanner"><image class="image" src="../../image/serviceBanner.jpg"></image></view>
+    <view class="aboutMain">
+        <view class="aboutUl">
+            <view class="aboutLi">请拍照取证，并拨打客服电话<text class="aboutLia" bindtap="call">010-83632657</text>与客服联系申请退换货；</view>
+            <view class="aboutLi">申请成功后，我们会将退换货地址以电话、短信或微信方式通知您；</view>
+            <view class="aboutLi">请将商品以及外包装物（如气囊、礼盒等）、发票、赠品一并返还我公司办理退、换货手续。</view>
+        </view>
+    </view>
+</view>

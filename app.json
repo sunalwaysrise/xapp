@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/service/service",
+    "pages/car/car",
+    "pages/home/home",
+    "pages/return/return",
+    "pages/detail/detail",
+    "pages/about/about"
+  ],
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"image/home.png",
+      "selectedIconPath":"image/home_1.png"
+    }, {
+      "pagePath": "pages/service/service",
+      "text": "服务中心",
+      "iconPath":"image/service.png",
+      "selectedIconPath":"image/service_1.png"
+    }, {
+      "pagePath": "pages/car/car",
+      "text": "购物车",
+      "iconPath":"image/car.png",
+      "selectedIconPath":"image/car_1.png"
+    }, {
+      "pagePath": "pages/home/home",
+      "text": "我的订单",
+      "iconPath":"image/order.png",
+      "selectedIconPath":"image/order_1.png"
+    }],
+     "color":"#ffffff",
+     "selectedColor":"#00647d",
+     "backgroundColor":"#00a2ca",
+     "position":"bottom",
+     "borderStyle":"white"
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#00a2ca",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText":"杭州高码",
+    "backgroundColor":"#fff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh":false
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile":60000,
+    "downloadFile":60000
+  },
+  "debug": true
+}

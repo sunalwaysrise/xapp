@@ -1,0 +1,30 @@
+.header_guide{background:#fff url(http://app.wenbin.lu/Public/res/image/n_2.png) 10rpx center no-repeat;background-size:40rpx;}
+
+
+.guide{padding:0 0 10rpx 0;}
+.guide_nav{height:192rpx;background:#fff;margin-bottom:14rpx;box-shadow:0px 1px 1px 0px #e8e7e7;border-bottom:1px #d9d8d7 solid;padding:0 20rpx;position:relative;font-size:24rpx;}
+.guide_nav::after{content:"";position:absolute;height:0;border-top:1px #00a2ca dashed;top:96rpx;left:20rpx;right:20rpx;}
+.guide_nav .as{height:52rpx;padding:22rpx 0;float:left;text-align:center;width:236rpx;line-height:52rpx;color:#252626;background-position:10rpx center;background-repeat:no-repeat;position:relative;}
+.as_1{background-image:url(http://app.wenbin.lu/Public/res/image/as_1.png);background-size:38rpx auto;}
+.as_2{background-image:url(http://app.wenbin.lu/Public/res/image/as_2.png);background-size:42rpx auto;}
+.as_3{background-image:url(http://app.wenbin.lu/Public/res/image/as_3.png);background-size:38rpx;}
+.as_4{background-image:url(http://app.wenbin.lu/Public/res/image/as_4.png);background-size:38rpx;}
+.as_5{background-image:url(http://app.wenbin.lu/Public/res/image/as_5.png);background-size:40rpx;}
+.as_6{background-image:url(http://app.wenbin.lu/Public/res/image/as_6.png);background-size:42rpx auto;}
+.as_2::before,
+.as_2::after,
+.as_5::before,
+.as_5::after{content:"";width:1px;height:26px;top:11px;background:#e5e5e5;position:absolute;}
+.as_2::before,
+.as_5::before{left:0;}
+.as_2::after,
+.as_5::after{right:0;}
+
+.ul{}
+.li{padding:0 10px 10px 10px;background:#fff;margin-bottom:7px;box-shadow:0px 1px 1px 0px #e8e7e7;color:#252626;}
+.title{padding-top:5px;line-height:25px;height:25px;font-size:28rpx;background-position:0 14rpx;background-repeat:no-repeat;padding-left:25px;}
+
+
+.content{line-height:40rpx;font-size:20rpx;}
+.question{line-height:40rpx;font-size:20rpx;padding-bottom:20rpx;}
+.answer{line-height:40rpx;font-size:20rpx;text-indent:2em;}

@@ -1,0 +1,30 @@
+.banner{width:750rpx;height:500rpx;}
+.title{padding:24rpx 20rpx;background:#fff;box-shadow:0 1px 1px 1px #ddd;position:relative;height:128rpx;}
+.name{left:20rpx;height:128rpx;top:24rpx;right:220rpx;font-size:34rpx;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;position:absolute;}
+.prize{top:24rpx;right:20rpx;width:200rpx;position:absolute;text-align:center;}
+.oldprize{font-size:50rpx;height:80rpx;line-height:80rpx;color:#e85d4b;}
+.del{font-size:30rpx;height:48rpx;line-height:48rpx;text-decoration:line-through;color:#999;}
+.disc{background:#fff;box-shadow:0 1px 1px 1px #ddd;padding:20rpx;margin-top:20rpx;font-size:28rpx;line-height:1.3;color:#767676;}
+.pl{background:#fff;margin-top:20rpx;padding-bottom:140rpx;}
+.h2{height:88rpx;line-height:88rpx;font-size:32rpx;margin-bottom:4rpx;box-shadow:0 2rpx 2rpx 2rpx #ddd;font-size:30rpx;background:url(data:image/png;base64,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) 20rpx center no-repeat;background-size:38rpx;padding-left:72rpx;}
+.textarea{margin:60rpx 60rpx 30rpx 60rpx;}
+.textarea textarea{width:100%;border:1px #ddd solid;border-radius:5rpx;box-sizing:border-box;}
+.btn3,.btn4,.btn5,.btn6,.btn7{display:block;margin:30rpx 60rpx 30rpx 60rpx;height:80rpx;line-height:80rpx;text-align:center;color:#fff;font-size:38rpx;border-radius:8rpx;}
+.btn3,.btn6{background:#fba949;}
+.btn4,.btn7{background:#e5e5e5;color:#252626;}
+.btn5{color:#fba949;border:1px solid #f5982e;}
+.pl_btn{margin:20rpx 60rpx;height:80rpx;}
+.btn6,.btn7{width:45%;margin:0;}
+.btn6{float:left;}
+.btn7{float:right;}
+.comment{position:relative;overflow:hidden;border-bottom:1px #e5e5e5 dashed;padding:10rpx 20rpx;}
+.t{height:84rpx;padding:10rpx 0;}
+.image{width:80rpx;height:80rpx;float:left;border-radius:50%;border:1px #00a2ca solid;}
+.nickname{height:84rpx;line-height:84rpx;float:left;padding-left:10rpx;color: #252626;font-size:26rpx;}
+.c{color:#252626;line-height:24px;font-size:24rpx;padding-bottom:10rpx;}
+.e{color:#999;line-height:24rpx;font-size:20rpx;}
+.comment_btns{height:80rpx;border-bottom:1px #ddd solid;position:relative;}
+.a{width:20%;float:left;height:80rpx;line-height:80rpx;text-align:center;font-size:24rpx;}
+.b{float:left;border-left:1px #ddd solid;border-right:1px #ddd solid;line-height:80rpx;font-size:28rpx;text-align:center;width:60%;box-sizing:border-box;}
+.cur{color:#ff6600;}
+.buyBtn{height:100rpx;line-height:100rpx;color:#fff;font-size:36rpx;text-align:center;background:#f5982e;position:fixed;left:0;bottom:0;width:100%;}

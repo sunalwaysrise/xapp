@@ -1,0 +1,52 @@
+<view class="header1 header_guide">服务指南</view>
+<view class="bannerTop">
+    <image class="image" src="../../image/m14472588281508468190.jpg" ></image>
+</view>
+<view class="guide">
+    <view class="guide_nav">
+        <view class="as as_1">正品保证</view>
+        <view class="as as_2">购买方式</view>
+        <view class="as as_3">支付方式</view>
+        <view class="as as_4">配送方式</view>
+        <view class="as as_5">退换政策</view>
+        <view class="as as_6">退款Q&A</view>
+    </view>
+    <view class="ul">
+        <view class="li">
+            <view class="title as_1">正品保证</view>
+            <view class="content">本商城为雀巢健康科学官方旗舰店，所有商品及服务均为雀巢健康科学公司直接提供，您在中国大陆地区所购买的所有雀巢健康科学公司的医疗营养品均可以进行防伪查验。</view>
+        </view>
+        <view class="li">
+            <view class="title as_2">购买方式</view>
+            <view class="content">参照具体《购物流程》进行购买，如需发票，我们将在两个工作日内开出，另单寄送，不随货同寄。另外本商城支持购物车功能，可多种商品合并购买。</view>
+        </view>
+        <view class="li">
+            <view class="title as_3">支付方式</view>
+            <view class="content">本商城支持微信钱包支付，不支持支付宝付款。</view>
+        </view>
+        <view class="li">
+            <view class="title as_4">配送方式</view>
+            <view class="content">本商城商品全部免运费，采用顺丰物流全程配送，配送范围覆盖全国大部分地区（港澳台除外）。全部货物从北京发出，北京、天津、河北通常次日到货；江浙沪等地2-3天；新疆、西藏、广西、内蒙古3-5天到货。</view>
+            <view class="content">在工作日情况下，如果在当天下午5点前完成支付，可当日发货；若下午5点以后完成支付，则在次日发货。由于本平台尚不支持周末及节假日发货，在节假日期间，以及前一天下午5点以后所产生的订单，将顺延至节假日结束后第一个工作日发货。</view>
+        </view>
+        <view class="li">
+            <view class="title as_5">退换货政策</view>
+            <view class="content">由于雀巢医疗营养品平台所售商品属于特殊属性商品，如果您已对所购商品进行签收，若非质量问题所引起的退货，将不予处理，还请在购买前对商品进行专业咨询(雀巢消费者热线：400 610 4868)。</view>
+            <view class="content">若商品存在质量问题（罐体破损、内容物结块、有异物等），可自商品签收日起7日内申请退货，15日内申请换货。<br/>
+                <a target="_blank" href="httview://waview.koudaitong.com/v2/showcase/mviewnews?alias=195i23uhz&sviewm=m1426834275762368062481418.scan.3181057534">#退换货流程#</a></view>
+        </view>
+        <view class="li">
+            <view class="title as_6">退款方式Q&A</view>
+            <view class="question">问：怎么申请退款？</view>
+            <view class="answer">答：请参照《微信钱包退款流程》操作，并确认退款申请成功，如有问题请与客服联系申请退款</view>
+            <view class="question">问：退货后什么时候退款？钱退到哪里？</view>
+            <view class="content">
+                <view class="answer">答：我们将在收到退货包裹3日内办理退款。</view>
+                <view class="answer">1）使用储蓄卡、信用卡支付，退款原路退回到您的账户，按银行规定10-15个工作日到账。</view>
+                <view class="answer">2）使用微信钱包支付，退款1-7个工作日后退回至微信钱包。</view>
+            </view>
+            <view class="question">问：退货金额与商品价格不一致？</view>
+            <view class="answer">答：您购买的商品如有参加满减或打折活动，退款金额按实际支付金额退回。</view>
+        </view>
+    </view>
+</view>

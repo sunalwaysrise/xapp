@@ -1,0 +1,16 @@
+<view wx:if="{{tip.modalShow}}" class="tip">{{tip.txt}}</view>
+<view wx:if="{{alert.modalShow}}" class="alert">
+    <view class="content">
+        <view class="txt">{{alert.txt}}</view>
+        <view class="alert_btn" ontap="{{alert.fn}}">确定</view>
+    </view>
+</view>
+<view wx:if="{{confirm.modalShow}}" class="confirm">
+    <view class="content">
+        <view class="txt">{{confirm.txt}}</view>
+        <view class="confirm_btn">
+            <view class="confirm_btn_true" ontap="{{confirm.sure_fn}}">确定</view>
+            <view class="confirm_btn_false" ontap="{{confirm.cancel_fn}}">取消</view>
+        </view>
+    </view>
+</view>

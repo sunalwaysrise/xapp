@@ -1,0 +1,31 @@
+<include src="../common/dialog.wxml" />
+<swiper class="banner" autoplay="true" interval="5000" duration="300" circular="true">
+    <block wx:for="{{banner}}">
+        <swiper-item>
+            <image src="{{IMGURL}}m{{item.image}}" class="slide-image" mode="aspectFill"/>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="tab">
+    <navigator url="/pages/signup/signup" open-type="navigate" class="item signup">注册有礼</navigator>
+    <navigator url="/pages/home/home" open-type="navigate" class="item me">会员主页</navigator>
+    <navigator url="/pages/return/return" open-type="navigate" class="item service">退换货流程</navigator>
+    <navigator url="/pages/about/about" open-type="navigate" class="item about">关于我们</navigator>
+</view>
+<view class="logo"></view>
+<view class="lists">
+    <view class="m" wx:for="{{products}}" wx:for-item="item">
+        <view class="h2 {{item.cur}}" id="{{index}}" bindtap="toggle" >{{item.name}} <view class="icon"></view></view>
+        <view class="c {{item.cur}}"  >
+            <view class="l" wx:for="{{item.list}}" wx:for-item="i">
+                <image class="image" src="{{IMGURL}}m{{i.image}}" mode="aspectFill"></image>
+                <view class="title">{{i.title}}</view>
+                <view class="price">
+                    <text class="trueprice">¥{{i.price}}</text>
+                    <text class="oldprice" wx:if="{{i.oldprice>0}}">¥{{i.oldprice}}</text>
+                </view>
+                <button class="button" hover-class="button-hover" type="primary" id="{{i.id}}" bindtap="detail" size="mini" plain="true"> 查看详细 </button>
+            </view>
+        </view>
+    </view>
+</view>
